@@ -36,10 +36,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 
 .container{
+    height: 100%;
     background-color: var(--White);
     width:100%;
     color: var(--White);
