@@ -20,9 +20,14 @@
 *,
 *::before,
 *::after{
+
+    box-sizing: border-box;
+   
+}
+
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Hanken Grotesk', sans-serif;
 }
 
@@ -36,7 +41,7 @@ body{
 
 .container{
     background-color: var(--White);
-    width: 18.75rem;
+    width:100%;
     color: var(--White);
     display: flex;
     flex-direction: column;
@@ -173,10 +178,10 @@ body{
 }
 
 
-@media screen and (min-width: 40rem){
+@media screen and (min-width: 36rem){
     .container{
         flex-direction: row;
-        width: 37.5rem;
+        width: 31.25rem;
         border-radius: 2rem;
    
     }
