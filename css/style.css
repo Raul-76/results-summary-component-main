@@ -182,6 +182,7 @@ body{
 
 @media screen and (min-width: 36rem){
     .container{
+        height: initial;
         flex-direction: row;
         width: 31.25rem;
         border-radius: 2rem;
